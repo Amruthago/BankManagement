@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Management Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bank Management System</h1>
+        
+        <!-- Form to create an account -->
+        <h3>Create Account</h3>
+        <form id="createAccountForm">
+            <input type="text" id="accountHolderName" placeholder="Account Holder Name" required />
+            <input type="number" id="initialDeposit" placeholder="Initial Deposit Amount" required />
+            <button type="submit">Create Account</button>
+        </form>
+
+        <!-- Form to deposit amount -->
+        <h3>Deposit Amount</h3>
+        <form id="depositForm">
+            <input type="number" id="depositAccountNumber" placeholder="Account Number" required />
+            <input type="number" id="depositAmount" placeholder="Amount to Deposit" required />
+            <button type="submit">Deposit</button>
+        </form>
+
+        <!-- Form to withdraw amount -->
+        <h3>Withdraw Amount</h3>
+        <form id="withdrawForm">
+            <input type="number" id="withdrawAccountNumber" placeholder="Account Number" required />
+            <input type="number" id="withdrawAmount" placeholder="Amount to Withdraw" required />
+            <button type="submit">Withdraw</button>
+        </form>
+
+        <!-- Form to delete account -->
+        <h3>Close Account</h3>
+        <form id="closeAccountForm">
+            <input type="number" id="deleteAccountNumber" placeholder="Account Number" required />
+            <button type="submit">Close Account</button>
+        </form>
+
+        <!-- Section for displaying account details -->
+        <h3>Account Details</h3>
+        <form id="getAccountForm">
+            <input type="number" id="accountNumber" placeholder="Account Number" required />
+            <button type="submit">Get Account Details</button>
+        </form>
+
+        <div id="accountDetails"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

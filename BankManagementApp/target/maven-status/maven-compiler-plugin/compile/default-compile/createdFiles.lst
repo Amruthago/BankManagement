@@ -1,0 +1,6 @@
+com\sjprogramming\bankapp\BankManagementApp\entity\Account.class
+com\sjprogramming\bankapp\BankManagementApp\BankManagementAppApplication.class
+com\sjprogramming\bankapp\BankManagementApp\controller\AccountController.class
+com\sjprogramming\bankapp\BankManagementApp\service\AccountService.class
+com\sjprogramming\bankapp\BankManagementApp\service\AccountServiceImpl.class
+com\sjprogramming\bankapp\BankManagementApp\repository\AccountRepository.class
